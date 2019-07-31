@@ -23,5 +23,5 @@ s按照一个空格或者多个连续的空格分割，返回分割之后的串�
 	
 	func main() {
 		fmt.Printf("Fields are: %q", strings.Fields("  foo bar  baz   ")) //Fields are: ["foo" "bar" "baz"]
-		fmt.Printf("Fields are: %q", strings.Fields(" baz ")) //Fields are: ["bar"]
+		fmt.Printf("Fields are: %q", strings.Fields(" baz ")) //Fields are: ["baz"]
 	}
